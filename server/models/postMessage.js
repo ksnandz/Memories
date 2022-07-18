@@ -1,10 +1,10 @@
-import mongoose, { mongo } from 'mongoose';
+import mongoose from 'mongoose';
 
-const postShema = mongoose.Schema({
+const postSchema = mongoose.Schema({
   title: String,
-  message, String,
-  creator, String,
-  tags: [Strings],
+  message: String,
+  creator: String,
+  tags: [String],
   selectedFile: String,
   likeCount: {
     type: Number,
